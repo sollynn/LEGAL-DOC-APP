@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Checkbox, Row, Col } from 'antd';
-import { personalDataOptions } from '../../constants/dpaData';
+import { personalDataOptions } from '../../../constants/dpaData';
 
 export default function Step2() {
   return (

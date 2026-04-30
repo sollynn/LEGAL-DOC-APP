@@ -2,8 +2,8 @@ import React from 'react';
 import { Layout, Typography, Button } from 'antd';
 import { ArrowLeftOutlined } from '@ant-design/icons';
 import { useStore } from './store';
-import Home from './components/Home';
-import DpaForm from './components/DpaForm';
+import Home from './pages/Home';
+import DpaForm from './components/forms/DpaForm';
 
 const { Header, Content } = Layout;
 const { Title } = Typography;
